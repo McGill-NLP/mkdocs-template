@@ -27,7 +27,15 @@ extra:
       link: https://github.com/mcGill-NLP/wiki
   homepage: https://mcgill-nlp.github.io
 
-copyright: Copyright &copy; 2022 McGill NLP
-
 extra_css:
   - stylesheets/extra.css
+
+# See: https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+copyright: Copyright &copy; 2022 McGill NLP
