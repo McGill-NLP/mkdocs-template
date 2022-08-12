@@ -10,4 +10,4 @@ If you are planning to have a main website for your project as well as documenta
 
 - Edit Title: go to `mkdocs.yml` and change the `site_name` field.
 - Edit GitHub URL in the Footer: go to `mkdocs.yml` and change the `extra > social` field.
-- Deploy: Go to Settings > Pages > Source: Deploy from a branch, then select the `gh-pages`. That branch is automatically generated when you push to the `main` branch via a [workflow](./.github/workflows/mkdocs.yml), so do not edit that branch directly! Make any required changes to `/docs` then push to `main`.
+- Deploy: Go to [Settings > Pages](/settings/pages) > "Source: Github Actions". Now, every time you push to the `main` branch, the docs will be deployed via a [workflow](./.github/workflows/mkdocs.yml).
