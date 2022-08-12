@@ -24,7 +24,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/McGill_NLP
     - icon: fontawesome/brands/github
-      link: https://github.com/mcGill-NLP/wiki
+      link: https://github.com/McGill-NLP/
   homepage: https://mcgill-nlp.github.io
 
 extra_css:
